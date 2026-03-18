@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventVerse - Tech Fest Portal</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">EventVerse</div>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <canvas id="canvas-particles"></canvas>
+    <div class="hero-content">
+      <h1>Where Innovation Meets Imagination</h1>
+      <p>Join EventVerse, the ultimate tech fest experience. Discover groundbreaking events, connect with innovators, and shape the future of technology.</p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary btn-pulse" onclick="window.location.href='events.html'">View Events</button>
+        <button class="btn btn-primary" onclick="window.location.href='register.html'">Register Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section style="padding: var(--spacing-2xl) var(--spacing-xl); max-width: 1400px; margin: 0 auto;">
+    <h2 style="text-align: center; margin-bottom: var(--spacing-2xl); color: var(--text-primary);">Festival Highlights</h2>
+    <div class="grid grid-cols-3">
+      <div class="card">
+        <h3 style="color: var(--accent-secondary); margin-bottom: var(--spacing-md);">50+ Events</h3>
+        <p>Experience diverse technical and cultural events spanning multiple categories from hackathons to workshops.</p>
+      </div>
+      <div class="card">
+        <h3 style="color: var(--accent-secondary); margin-bottom: var(--spacing-md);">₹50L Prize Pool</h3>
+        <p>Compete for massive rewards and recognition across various competitions and challenges.</p>
+      </div>
+      <div class="card">
+        <h3 style="color: var(--accent-secondary); margin-bottom: var(--spacing-md);">Expert Speakers</h3>
+        <p>Learn from industry leaders and tech pioneers in interactive talks and workshops.</p>
+      </div>
+      <div class="card">
+        <h3 style="color: var(--accent-secondary); margin-bottom: var(--spacing-md);">3-Day Marathon</h3>
+        <p>Three days of non-stop innovation, learning, and celebration of technology.</p>
+      </div>
+      <div class="card">
+        <h3 style="color: var(--accent-secondary); margin-bottom: var(--spacing-md);">Networking Hub</h3>
+        <p>Connect with students, developers, and professionals from across the globe.</p>
+      </div>
+      <div class="card">
+        <h3 style="color: var(--accent-secondary); margin-bottom: var(--spacing-md);">Live Streaming</h3>
+        <p>Join from anywhere with our comprehensive live streaming of all major events.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>About EventVerse</h4>
+        <p>EventVerse is the premier tech festival bringing together innovation, creativity, and technology enthusiasts from around the world.</p>
+        <div class="social-icons">
+          <a href="#" title="Facebook">f</a>
+          <a href="#" title="Twitter">𝕏</a>
+          <a href="#" title="Instagram">📷</a>
+          <a href="#" title="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="events.html">All Events</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Get in Touch</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <ul>
+          <li>Email: <a href="mailto:info@eventverse.com">info@eventverse.com</a></li>
+          <li>Phone: <a href="tel:+919876543210">+91-9876-543-210</a></li>
+          <li>Address: Tech Campus, City Center</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 EventVerse. All rights reserved. | Crafted with ❤️ for tech enthusiasts</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

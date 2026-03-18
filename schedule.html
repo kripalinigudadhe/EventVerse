@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule - EventVerse</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">EventVerse</div>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- SCHEDULE SECTION -->
+  <section style="padding: calc(80px + var(--spacing-2xl)) var(--spacing-xl); max-width: 1400px; margin: 0 auto;">
+    <h1 style="text-align: center; margin-bottom: var(--spacing-lg); color: var(--text-primary);">Festival Schedule</h1>
+    <p style="text-align: center; margin-bottom: var(--spacing-2xl); color: var(--text-muted); max-width: 600px; margin-left: auto; margin-right: auto;">Plan your EventVerse experience with our comprehensive 3-day schedule.</p>
+
+    <!-- DAY FILTERS -->
+    <div style="text-align: center; margin-bottom: var(--spacing-2xl);">
+      <div class="filter-group" style="justify-content: center;">
+        <button class="filter-btn active" data-day="day1">Day 1 (March 15)</button>
+        <button class="filter-btn" data-day="day2">Day 2 (March 16)</button>
+        <button class="filter-btn" data-day="day3">Day 3 (March 17)</button>
+      </div>
+    </div>
+
+    <!-- TIMELINE -->
+    <div class="timeline" id="schedule-timeline">
+      <!-- Timeline items will be populated by JavaScript -->
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>About EventVerse</h4>
+        <p>EventVerse is the premier tech festival bringing together innovation, creativity, and technology enthusiasts.</p>
+        <div class="social-icons">
+          <a href="#" title="Facebook">f</a>
+          <a href="#" title="Twitter">𝕏</a>
+          <a href="#" title="Instagram">📷</a>
+          <a href="#" title="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="events.html">All Events</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Get in Touch</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <ul>
+          <li>Email: <a href="mailto:info@eventverse.com">info@eventverse.com</a></li>
+          <li>Phone: <a href="tel:+919876543210">+91-9876-543-210</a></li>
+          <li>Address: Tech Campus, City Center</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 EventVerse. All rights reserved. | Crafted with ❤️ for tech enthusiasts</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/schedule.js"></script>
+</body>
+</html>
